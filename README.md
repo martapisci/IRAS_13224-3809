@@ -9,6 +9,13 @@ The aim of this work is to collect and select different groups of observations, 
 In order to process the necessary data to constuct the spectra I downloaded Xspec: the software above mentioned, more specifically I only selected the packages relatived to the spectific mission, i.e. Swift.
 
 
+## Acknowledgements
+- [V. Braito](https://www.researchgate.net/scientific-contributions/Valentina-Braito-2006816678) 
+- [A. Perego](http://www.albinoperego.eu)
+- [Marta Piscitelli](https://github.com/martapisci/martapisci)
+
+## License
+The code in this repo is released under version 3 of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html).
 
 
 
