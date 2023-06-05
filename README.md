@@ -1,3 +1,6 @@
+<img align="right" width=20% src="logo.gif" />
+
+
 # IRAS 13224-3809
 The observations and analysis covered in this repository were carried out as part of my thesis project at the University of Trento, under the supervision of Dr. Braito and Professor Perego.\
 \
