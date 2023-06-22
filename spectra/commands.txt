@@ -1,0 +1,8 @@
+#export HEADAS=/PATH/heasoft-6.31/aarch64-apple-darwin21.6.0
+
+
+
+ setenv HEADAS /PATH/heasoft-6.31/aarch64-apple-darwin21.6.0
+ alias lhea 'source $HEADAS/headas-init.csh'
+
+ setenv DISPLAY :0.0
