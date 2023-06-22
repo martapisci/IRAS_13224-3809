@@ -20,7 +20,16 @@ Once NASA Heasoft software is installed we might run xspec.
 ### Mac issues
 Some Mac users might not be able to connect to the X server, meaning that it is not possible to interact with pop-up images using X11.
 The issue was:\
-I overcame this issue by running 'commands.txt' setting the display environment.
+```bash
+PGPLOT /xw: cannot connect to X server
+```
+I overcame this issue by running `commands.txt` which sets the display environment as follows.
+```bash
+setenv HEADAS /PATH/heasoft-6.31/aarch64-apple-darwin21.6.0
+```
+```bash
+setenv DISPLAY :0.0
+```
 ## Acknowledgements
 - [V. Braito](https://www.researchgate.net/scientific-contributions/Valentina-Braito-2006816678) 
 - [A. Perego](http://www.albinoperego.eu)
