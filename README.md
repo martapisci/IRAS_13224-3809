@@ -12,6 +12,15 @@ The aim of this work is to collect and select different groups of observations, 
 In order to process the necessary data to constuct the spectra I downloaded Xspec: the software above mentioned, more specifically I only selected the packages relatived to the spectific mission, i.e. Swift.
 
 
+
+
+
+## Spectra
+Once NASA Heasoft software is installed we might run xspec. 
+### Mac issues
+Some Mac users might not be able to connect to the X server, meaning that it is not possible to interact with pop-up images using X11.
+The issue was:\
+I overcame this issue by running 'commands.txt' setting the display environment.
 ## Acknowledgements
 - [V. Braito](https://www.researchgate.net/scientific-contributions/Valentina-Braito-2006816678) 
 - [A. Perego](http://www.albinoperego.eu)
