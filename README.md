@@ -30,6 +30,17 @@ setenv HEADAS /PATH/heasoft-6.31/aarch64-apple-darwin21.6.0
 ```bash
 setenv DISPLAY :0.0
 ```
+
+### Data reduction
+
+We should now procede with data reduction. The needed files, which are public and might be downloaded from [Swift-XRT satellite website](https://www.swift.ac.uk/user_objects/), are mainly four: *back.pi, *.rmf and *.arf files which are the background and ancilliary response files respectivel. While the *source.pi file is the source spectrum before having any keywords set, or any binning applied.\\
+The latter is then modified in order to group the data in it. We usually group them in bins with 10-20 counts each.\
+The command line used to bin data is 
+```bash
+grppha infile outfile
+```
+
+
 ## Acknowledgements
 - [V. Braito](https://www.researchgate.net/scientific-contributions/Valentina-Braito-2006816678) 
 - [A. Perego](http://www.albinoperego.eu)
