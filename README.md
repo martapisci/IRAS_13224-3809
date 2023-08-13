@@ -47,6 +47,16 @@ The command line used to bin data is
 grppha infile outfile
 ```
 
+```bash
+chkey ancrfile 
+```
+```bash
+chkey backfile 
+```
+```bash
+chkey respfile 
+```
+
 
 ## Acknowledgements
 - [V. Braito](https://www.researchgate.net/scientific-contributions/Valentina-Braito-2006816678) 
